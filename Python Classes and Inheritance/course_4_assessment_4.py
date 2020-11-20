@@ -125,8 +125,6 @@ for diction in di:
         diction.keys() == "Puppies"
         total = total + diction['Puppies']
     except:
-        pass
-    if("Puppies" not in diction.keys()):
         diction["Puppies"] = 0
 
 print("Total number of puppies:", total)
